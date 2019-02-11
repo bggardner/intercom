@@ -22,10 +22,10 @@ My home has (had) an outdated intercom system (NuTone IM-3303) with a master sta
 ## Sever Software
 This guide assumes basic knowledge of a Debian-based operating system.  I used Ubuntu.
 1. Install a Murmur/Mumble Server: `sudo apt install mumble-server` (for two-way voice)
-1.1. (optional) Configure at `/etc/mumble-server.ini`
+    1. (optional) Configure at `/etc/mumble-server.ini`
 2. Install webserver.  I used `nginx`: `sudo apt install nginx`
-2.1. Follow the example `nginx.default` at `/etc/nginx/sites-enabled/default`
+    1. Follow the example `nginx.default` at `/etc/nginx/sites-enabled/default`
 ## Intercom (Client) Software
 1. Install [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) with desktop (not Lite, unless you know what you're doing).
 2. Compile and install a custom version of Chromium:
-2.1. TODO
+    1. TODO
