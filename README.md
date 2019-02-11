@@ -12,8 +12,8 @@ My home has (had) an outdated intercom system (NuTone IM-3303) with a master sta
 * Microphone/speaker/amplifier (for two-way voice)
 * 3D Printer (for custom enclosure/faceplate)
 * Server (dedicated recommended)
-** [Murmur/Mumble Server](https://wiki.mumble.info/wiki/Main_Page) (for two-way voice)
-** Webserver
+    * [Murmur/Mumble Server](https://wiki.mumble.info/wiki/Main_Page) (for two-way voice)
+    * Webserver
 
 # Installation
 ## Hardware
