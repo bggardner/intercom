@@ -27,5 +27,6 @@ This guide assumes basic knowledge of a Debian-based operating system.  I used U
     1. Follow the example `nginx.default` at `/etc/nginx/sites-enabled/default`
 ## Intercom (Client) Software
 1. Install [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) with desktop (not Lite, unless you know what you're doing).
-2. Compile and install a custom version of Chromium:
-    1. TODO
+2. Compile and install Mumble web client:
+2. Compile and install a custom version of Chromium.  Until [this issue](https://bugs.chromium.org/p/chromium/issues/detail?id=257511#c_ts1549762643) is resolved, your touchscreen will not sleep.
+    1. Install build tools: `sudo apt install 
