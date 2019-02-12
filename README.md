@@ -1,5 +1,5 @@
 # Background
-My home has (had) an outdated intercom system (NuTone IM-3303) with a master station (with a tape deck!) and multiple room stations.  It still worked, but the faceplates had yellowed and the sound quality was poor.  Modern replacements systems are quite pricey, and probably wouldn't do everything I would want anyways.  Being familiar with electronics and programming, I decided to try to create my own system out of Raspberry Pis.  This project describes how to recreate my system with the intent that others can reuse some or all of the components.
+My home ~~has~~ had an outdated intercom system (NuTone IM-3303) with a master station (with a tape deck!) and multiple room stations.  It still worked, but the faceplates had yellowed and the sound quality was poor.  Modern replacements systems are quite pricey, and probably wouldn't do everything I would want (and not be easily upgradable).  Being familiar with electronics and programming, I decided to try to create my own system out of Raspberry Pis.  This project describes how to recreate my system with the intent that others can reuse some or all of the components.
 
 # Features
 * Two-way voice
@@ -19,7 +19,7 @@ My home has (had) an outdated intercom system (NuTone IM-3303) with a master sta
 ## Hardware
 1. Install appropriate power wiring.  This can be done by replacing existing intercom wiring with properly rated electrical cabling or using PoE.  Consult your local codes or an electrician.
 2. Assemble Raspberry Pi, touchscreen, microphone, speaker/amplifier, and 3D-printed housing/faceplate.
-## Sever Software
+## Server Software
 This guide assumes basic knowledge of a Debian-based operating system.  I used Ubuntu.
 1. Install a Murmur/Mumble Server: `sudo apt install mumble-server` (for two-way voice)
     1. (optional) Configure at `/etc/mumble-server.ini`
