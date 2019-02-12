@@ -1,0 +1,7 @@
+#!/bin/bash
+/opt/chromium/chromium-launcher --kiosk --touch-events --test-type=gpu --disable-pinch --ignore-certificate-errors https://bass.local/?username=$HOSTNAME
+#--kiosk doesn't ask for microphone access
+#--touch-events uses touch events (--kiosk disables them)
+#--test-type=gpu gets rid of "Google API keys are missing", see https://bugs.chromium.org/p/chromium/issues/detail?id=537776. Alternative: https://stackoverflow.com/questions/21276763/google-api-keys-missing-warning-message-when-using-chromium-portable
+#--disable-pinch prevents pinch zooming
+#--ignore-certificate-errors prevents self-signed certificate error

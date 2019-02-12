@@ -1,0 +1,10 @@
+[Unit]
+Description=Mumble Web Proxy
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/media/Archive/projects/intercom/mumble-web-proxy/target/release/mumble-web-proxy --listen-ws 64737 --server localhost:64738
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,28 @@
+{
+  "name": "mumble-web-intercom",
+  "version": "0.0.1",
+  "description": "An HTML5 Mumble intercom.",
+  "scripts": {
+    "build": "webpack",
+    "prepare": "rm -rf dist && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brent Gardner<brent@ebrent.net>",
+  "license": "ISC",
+  "repository": "johni0702/mumble-web",
+  "homepage": "https://github.com/johni0702/mumble-web",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-env": "^1.7.0",
+    "brfs": "^1.4.3",
+    "transform-loader": "^0.2.3",
+    "webpack": "^1.13.3",
+    "mumble-client-websocket": "^1.0.0",
+    "mumble-client": "github:johni0702/mumble-client#a5cb0d7"
+  }
+}
